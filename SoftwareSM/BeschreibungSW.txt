@@ -1,0 +1,94 @@
+Der Ordner SoftwareSM/Delpji6Projekt
+====================================
+
+-------------------+--------------------------------------------------------------------
+  File             |  Inhalt
+-------------------+--------------------------------------------------------------------
+DelphiSMLesen.exe  | Executable (32Bit) für Windows. Läuft bei mir unter Win10, sollte    
+DelphiSMLesen.res  | bis hinunter zu Win98 laufen.    
+-------------------+--------------------------------------------------------------------
+DelphiSMLesen.dpr  | Projektfiles   
+DelphiSMLesen.dof  |    
+DelphiSMLesen.cfg  |    
+-------------------+--------------------------------------------------------------------
+SMComPort.txt      | Konfiguration des Comport (Default COM6)   
+-------------------+--------------------------------------------------------------------
+SMKey.txt          | Konfiguration des Smartmeterkey (Kundenschnittstelle muss im 
+                   | Smartmeter Webportal der Wiener Netze freigeschaltet werden.
+                   | Danach wird im Portal die Anzeige des Key auch freigeschaltet)   
+-------------------+--------------------------------------------------------------------
+umainform.pas      | Userinterface    
+umainform.dfm      |    
+-------------------+--------------------------------------------------------------------
+ucomport.pas       | Comportanbindung   
+-------------------+--------------------------------------------------------------------
+uSynCrypto.pas     | Entschlüsselung   
+-------------------+--------------------------------------------------------------------
+uSMWienerNetze.pas | Seperation des Modbustelegram (IV, verschlüsselten Daten). 
+                   | Seperation der entschlüsselten Daten (Zeit, Smartmeterwerte).   
+-------------------+--------------------------------------------------------------------
+
+
+
+Verwendete Softwarequellen
+==========================
+
+* Synopse mORMot Open Source Client-Server ORM SOA MVC framework for Delphi 6
+  von http://mORMot.net
+  -> Vorlage für uSynCrypto.pas welches eine Extraktion des minimal notwendigen 
+     für die Entschlüsselung ist
+* Codeschnipsel aus Beiträge/Diskusionen in Foren 
+
+
+
+Beispieldaten im Ordner SoftwareSM/BspDaten
+===========================================
+
+-------------------+--------------------------------------------------------------------
+  File             |    Inhalt
+-------------------+--------------------------------------------------------------------
+BspRohdaten.txt    |    Ein Datenblock/Telegram mit farbliche Markierung  
+BspRohdaten.png    |    der Abschnitte soweit ich sie Zuordnen konnte. 
+-------------------+--------------------------------------------------------------------
+rs485_log.txt      |    Datenstrom des Smartmeter (ein Telegram pro sec) in Hex.
+-------------------+--------------------------------------------------------------------
+BspDaten.txt       |    Entschlusselte Datenblock soweit mir möglich war interpretiert 
+-------------------+--------------------------------------------------------------------
+
+
+
+Bemerkungen
+===========
+
+Zur Funktion:
+
+* Zeitliche Sequenzierung des Datenstroms erfolgt über die Zeitlücke zwischen den 
+  Telegrammen, da von Wiener Netzen hierzu ein properitäres Telegram verwendet wird, 
+  welches bis heute nicht auf ihrer Web-Page beschrieben ist. 
+  Für die Auswertung sollte hier die eindeutige Kennbytesequenz des Telegrambeginnes 
+  angeführt sein, welche sich aus der Norm und den am Smart-Meter aufgebrachten 
+  Informationen ergibt.
+  Aus den Beschreibungen anderer Netzbetreiber und der Auswertung der statisch bleibenden
+  Telegrambytes konnte ich die bei meinem Smart-Meter relevanten Telegrambereiche 
+  herausfinden. Diese sind IV und der Verschlüsselte Datenbereich. 
+* Entschlüsselung der Telegramdaten
+  Hierzu gibt es nun auf der Web-Page der Wiener Netze schon einen Hinweis auf die Norm 
+  und der verwendeten Verschlüsselung.
+* Sequenzierung der Daten
+  Hierzu gibt es nun auf der Web-Page der Wiener Netze schon einen Hinweis auf die OBIS Norm
+  und der übertragenen Werte. Ich musste mir noch die übertragenen Werte aus einer Masterarbeit
+  an der Fachhochschule Burgenland GmbH holen.
+
+Die Applikation wurde in der Entwicklungsumgebung Delphi Version 6 implementiert.
+Die Implementierung ist geradelinig, schlank und auf das Notwendigste beschränkt.
+Ich stelle dieses so wie es ist zur Verfügung. Meinerseits ist nicht daran gedacht 
+dieses zu pflegen. Das heißt ich werde nur sporadisch hier wieder vorbeischauen.
+Die Verwendug erfolgt auf EIGENE GEFAHR. Ich stelle dieses Menschen für den eigenen 
+Bedarf zur Verfügung, das heißt dieses darf nicht zu kommerzellen Zwecken verwendet 
+werden und soll auch nicht Netzbetreiber davon befreien diesbezügliche Informationen 
+selbst zu offenbaren. Diese Einschränkung gilt für meine Arbeit, das heißt für die 
+mitverwendeten fremden Codeanteile gelten ggf. deren Lizenzen mit. 
+
+
+
+
