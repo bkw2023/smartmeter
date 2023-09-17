@@ -1,0 +1,25 @@
+7E A0 7B CF 00 02 00 23 13 62 B1 E6 E7 00 DB 08 
+53 4D 53 67 70 08 43 DC 61 20 00 67 0A D7 86 1C 
+D6 11 6F 71 21 DE 79 4E E7 23 91 AA 5A 10 B0 45 
+89 4D B8 22 63 8C E0 E8 CD AB D7 6D 39 16 2D 59 
+62 E4 61 48 F6 DF 7E 3A F6 9B 9B 76 F6 29 97 B5 
+61 67 FE F7 72 CE 40 35 2A 07 36 D9 E4 E6 09 40 
+EB EB B9 D0 1A A1 1B 25 AE 39 88 5C D9 8C A9 98 
+A5 16 15 64 7B 96 C0 0D 7A DE 29 64 7E 
+
+7E A0 7B CF 00 02 00 23 13 62 B1 E6 
+E7 00 DB 
+         08 53 4D 53 67 70 08 43 DC             // String $08=len 'SMS'-$67-$70-$0843DC
+61 20                                           // $61=6*16 + 1 = 97
+00 67 0A D7                                     // Msg Nr
+86 1C D6 11 6F 71 21 DE 79 4E E7 23 91 AA 5A 10 // Data 5*16+12 = 92 
+B0 45 89 4D B8 22 63 8C E0 E8 CD AB D7 6D 39 16 
+2D 59 62 E4 61 48 F6 DF 7E 3A F6 9B 9B 76 F6 29 
+97 B5 61 67 FE F7 72 CE 40 35 2A 07 36 D9 E4 E6 
+09 40 EB EB B9 D0 1A A1 1B 25 AE 39 88 5C D9 8C 
+A9 98 A5 16 15 64 7B 96 C0 0D 7A DE 
+                                    29 64       // crc
+                                          7E    // Msg Ende
+
+
+IV = String + Msg Nr = 53 4D 53 67 70 08 43 DC 00 67 0A D7

@@ -1,0 +1,32 @@
+Beispiel einer händischen Datensequenzierung der entschlüsselten Daten:
+
+0F 00 60 B0 9D 
+
+   0C    07 E7 05 01 01 13 39 27 00 FF 88 80    Zeit
+
+# Begin OBIS Codierung:
+02 0A -> Strukt 10 Elemente
+1)
+09 10    53 4D 53 31 30 33 30 37 30 30 35 34 31 36 36 30 // SMS1030700541660
+2)
+09 0C    07 E7 05 01 01 13 39 27 00 FF 88 80    Zeit 2023-5-1 Montag 19:57:39 0 
+         jj jj mm dd wd hh mi ss hs gmtde st
+3)
+06 00 1B 19 C7                1776071    Wirkenergie +A [Wh]
+4)
+06 00 01 43 B8                  82872    Wirkenergie -A [Wh]
+5)
+06 00 00 C1 09                  49417    Blindenergie +R [VArh]
+6)
+06 00 08 1C 6C                 531564    Blindenergie -R [VArh]
+7)
+06 00 00 00 EF                    239    Momentanwert Wirkleistung +P [W] Verbrauch
+8)   
+06 00 00 00 00                      0    Momentanwert Wirkleistung -P [W] Einspeisung
+9) 
+06 00 00 00 00                      0    Momentanwert Blindleistung +Q [VAr]
+10)
+06 00 00 00 73                    115    Momentanwert Blindleistung -Q [VAr]
+# Ende OBIS Codierung
+
+D4 6C EC 4C E0  
