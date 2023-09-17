@@ -1,0 +1,58 @@
+Hardware Liste und Quellen
+==========================
+
+* SA0012_TTLSensor von www.bayha-electronics.de 
+  Artikelnr.: 275076138187 
+  (HardwareSM/Bilder/FotoLesekopfBau/Bauanleitung-TTL.pdf)
+* ca 4cm Elektroinstallationsrohr 32mm Durchmesser aus meinem Hobbylager
+* 1 Stk Rohrschelle für obiges Rohr aus meinem Hobbylager
+* ca 25cm² Kunststoffplatte 3mm dick von Hornbach
+* Universalkleber von Hornbach
+* 9 Pin Sub-D Stecker m&f aus meinem Hobbylager
+* ABS Gehäuse aus meinem Hobbylager
+* Kabel einer alten Maus aus meinem Hobbylager
+* RS485-TTL Konverterplatine bei Reichelt Elektronik www.reichelt.at
+  Artikel-Nr: DEBO RS485 TTL
+* Step-Down-Wandlerplatine (12VAkku auf 5V) von elv.com 
+  Artikel-Nr: 133302 
+* ca 30m 4pol&Schirm Datenkabel aus meinem Hobbylager
+* RS485-USB Wandler bei www.reichelt.at
+  Artikel-Nr: RPI USB RS485 
+
+
+
+Hardware Fotos
+==============
+
+Finden sich in Unterordner von Ordner HardwareSM/Bilder.
+
+-------------------+--------------------------------------------------------------------
+Ordner             |    Inhalt
+-------------------+--------------------------------------------------------------------
+FotoLesekopfBau    |    IR-Lesekopf
+-------------------+--------------------------------------------------------------------
+FotoBoxRS485       |    Box mit Stromversorgung für Lesekopf und Umsetzung TTL auf RS485
+                   |    so wie für den Lesekopf die Bauanleitung-TTL.pdf 
+-------------------+--------------------------------------------------------------------
+FotoUSBRS485       |    Adapter für PC USB Port
+-------------------+--------------------------------------------------------------------
+
+
+
+Bemerkungen
+===========
+
+Der Zusammenbau des Lesekopfes gestaltet sich problemlos nach der mitgelieferten Bauanleitung.
+Den Ringmagneten habe ich eingeklebt. Das Gehäuse ist jedoch dünn und ich habe es wie in den 
+Bildern sichtbar verstärkt und auch eine Kabelführung gebaut.
+
+In der Box ist der Umsetzer von TTL auf RS485 und ein Mini-Step-Down-Wandler verbaut. 
+Der Wandler wird von der 12V Bleiakkubank meiner Inselanlage versorgt und erzeugt die 
+5V Spannungsversorgung für Umsetzer und Lesekopf.
+
+Beim Test der Box habe ich lediglich einen Fehler korrigieren müssen. Die Anschlüsse R und 
+T waren zu vertauschen. Die Richtige Zuordnung zu A un B am USB-RS485 Adapter kann mit einem 
+Multimeter festgestellt werden. Ein vertauschen ist hier auch unkritisch.
+
+Die Comportbezeichnung unter Windows kann im Gerätemanager nach Anstecken des Adapters 
+ermittelt werden.
