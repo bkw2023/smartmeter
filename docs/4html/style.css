@@ -1,0 +1,13 @@
+@font-face {
+font-family: xb27ma34uf;
+src: url('xb27ma34uf.ttf')
+format("opentype");
+}
+code {
+font-family: xb27ma34uf;
+font-size: 150%;
+font-weight: bold;
+}
+p {
+  margin-left: 40px;
+}
