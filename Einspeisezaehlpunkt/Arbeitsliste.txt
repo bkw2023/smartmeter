@@ -1,0 +1,264 @@
+Arbeitsliste Stand 15.9.2023
+
+1) Dokumentation Schriftverkehr
+- Wiener Netze
+   # Anzeige/Anmeldung BKW am 2023-01-15
+   # Ansuchen Einspeisezählpunkt am 2023-03-13
+   # Beschwerde am 2023-06-02
+     => ablehnende Stellungnahme am 2023-06-02
+   # Nochmaliges Ansuchen Einspeisezählpunkt am 2023-06-04
+     => Antwort ausständig
+- eControl
+  # Beratungsersuchen am 2023-04-17
+    => ablehnende Stellungnahme am 2023-05-12
+  # Klarstellung meiner Meinung und deren Begründung am 2023-05-14
+    => Antwort ausständig
+- BMK
+  # Bitte um Stellungnahme zur Interpretation des EIWOG der eControl 
+    am 2023-06-02
+    => positive Stellungnahme am 2023-06-26
+  # Anzeige der Wiener  Netze am 2023-07-01
+    => Stellungnahme zur Anzeige am 2023-08-03 (erhalten am 2023-08-24)
+
+
+2) Bewertungen und Folgerungen aus dem Schriftverkehr BMK
+- Eine Behörde muss einer plausibel begründeten Anzeige nachgehen, also ein
+  Ermittlungsverfahren einleiten (Ermittlungsakt eröffnen). Es ist davon auszugehen,
+  dass dieses gemacht wurde.
+  => kann man Einsicht in den Ermittlungsakt nehmen?
+     => Volksanwalt?
+
+- Aus der Antwort des BMK ist d.h. zu schließen, das die von mir angeführten Punkte
+  in der Anzeige nicht zutreffen.
+  # Betreffend Punkt 6:
+    Es existiert also doch eine Buchführung über die Einspeisung der BKW. 
+    D.h. die Einspeisezählpunkte sind im Smartmeter konfiguriert und die Werte 
+    werden seitens Wiener Netze notiert. Was damit konsistent ist, dass die Werte 
+    ja auch auf der Kundenschnittstelle ausgegeben werden. D.h. lediglich die 
+    Anzeige der Werte im Webportal wird nicht durchgeführt und die Bezeichnung 
+    des Einspeisezählpunktes nicht dem Netznutzer bekannt gegeben.
+    => Was könnte die Motivation für dieses Verhalten sein?
+       Welchen Vorteil hat die Wiener Netze deswegen?
+       . finanzell: eine Einsparung bei den Netzverluste aber trotzdem eine volle
+                    Verrechnung dieser bei den Netznutzern. 
+       . betreffend Energielobby: Verminderung der Konkurrenz im Energiemarkt und 
+                                  Verminderung von Umsatzverlusten.
+       . betreffend Informationsverheimlichung: Was der Netznutzer nicht weiß 
+                                                macht ihn nicht heiß.
+         => mein Smartmeterauslesesoftware und Hardware als Open-Source 
+            zur Verfügung stellen.  
+  # Betreffend den Punkten 1-4 wird ein Einzelschicksal angenommen bzw. auf lange
+    Bearbeitungsdauern verwiesen auf die man nicht Einwirken möchte. Man verweist 
+    mich zurück an die Schlichtungsstelle der eControl.
+    => Der Hinweis auf langer Bearbeitungsdauer ist insofern zutreffend als das
+       die Antwort der Wiener Netze erst nach der Beschwerde nach drei Monaten
+       erfolgte und die der eControl auch etwa ein Monat brauchte. Aber sie kam
+       und war gegenüber meinem Ersuchen ablehnend. Deswegen habe ich mich 
+       ja an die nächste Instanz dem BMK gewannt weil die Antwort auf mein
+       neuerliches Ersuchen ein Monat unbeantwortet blieb und bis heute geblieben
+       ist.
+    => es muss dem BMK gezeigt werden das es sich nicht um ein Einzelschicksal
+       handelt
+       => Diskussion der Antwort des BMK in Photovoltaikforen und Bekanntgabe 
+          meiner Open-Source und Anregung eine eMail an BMK zu schreiben.
+       => Zeitung? Standart, Presse, Kurier, Krone oder heute, österreich
+          => welche ist die Zielführendere? welche würde am ehesten eine 
+             elektronische Abstimmung/Petition organisieren?
+  # Betreffend Punkt 5
+    => wurde der übersehen? Dieser betrifft doch alle BKW, was auch das BMK 
+       erkennen müsste. Oder haben alle anderen BKW Besitzer einen
+       Einspeisezählpunkt unter dem sie ihre Einspeisung im Webportal sehen und
+       nur ich hab keinen bekommen?  
+    => das EIWOG definiert nicht explizit was im Webportal zur Kundeninformation
+       wie anzeigbar sein muss. Jedoch ist Energieeffizienz angeführt (§84#1),
+       welche im Falle eines BKW aber nur mit der Anzeige der Einspeisung
+       erkennbar und bewertbar wird. Gemäß §81a#4 (Eignung der Information zur
+       Bewirkung von Effizienzsteigerungen) könnte das BMK die Anzeige der 
+       Einspeisung verordnen.
+       => es wäre also dem BMK zu zeigen, dass hierfür ein deutliches Interesse
+          besteht
+          => In Photovoltaikforen diskutieren und eMail an BMK anregen
+
+- Aus der Antwort folgt aber auch das von Seiten des EIWOG nach Ansicht des BMK
+  meinem Ersuchen stattzugeben wäre. Man nennt mir dankenswerter weise auch
+  die Paragraphen (15, 17a)  auf die ich mich berufen soll. Nun ja 17a habe ich bereits
+  gegenüber den Wiener Netzen angeführt hat aber nicht beeindruckt.
+  => Schlichtung bei eControl beantragen zuzüglich Rückforderungen bzw.
+     Abgeltung der erfolgten Einspeisung aus dem Netzverlustentgelt (die
+     Abgeltung gebührt demjenigen der tatsächlich den Netzverlust ausgeglichen
+     hat).
+
+
+3) Wiener Bürgermeister als Eigentümer von Wiener Netze
+
+Bei der Rede zur 100 Jahr Feier WIHAST des Wiener Bürgermeisters Ludwig, 
+erzählte er davon warum die Notwendigkeit bestand die WIHAST zu gründen. 
+Kurz gesagt, wurde damals der Arbeiterschicht durch indirekte und direkte 
+Maßnahmen einiger Anderen der soziale Aufstieg verwehrt. Diese Maßnahmen 
+waren wirtschaftlicher Natur und verwehrten praktisch den Zugang zur 
+Bildung insbesondere der universitären Bildung. Die Arbeiterschicht konnte 
+sich einfach monetär den Wohnraum während eines Studiums nicht leisten. 
+Womit die Chancengleichheit für den sozialen Stand praktisch nicht gegeben 
+war.
+Was er gesagt hat war sehr einleuchtend und nachvollziehbar. Die Chancengleichheit 
+ist sehr wichtig, diese mag zwar juridisch umgesetzt sein aber praktisch wird 
+diese dennoch immer wieder durch Hemmnisse verhindert.
+Meiner Meinung nach ist es nicht nur wichtig den freien Zugang zur Bildung 
+zu haben sondern auch zu allen anderen Bedürfnissen und Errungenschaften der 
+Menschheit. Dazu gehören z.B. der freie Zugang zur Medizin und  Information. 
+Aber auch der freie Zugang zur Energie und damit zum Energiehandel. Die 
+Arbeiterschicht kann hier z.B. nur mit vergleichsweise kleinen Anlagen 
+(Balkonkraftwerken) das freie Gut Sonnenenergie ernten und damit der 
+Energielobby entgegentreten.
+Die Erfahrung zeigt nun, dass die Wiener-Netze den Balkonkraftwerken der 
+Zugang zum Energiehandel verwehrt. Es beginnt bereits damit, dass die 
+Information wie viel so ein Balkonkraftwerk tatsächlich einspeist gar nicht 
+im Smartmeter-Webportal anzeigt, mit der Ausrede es existiere ja kein Vertrag 
+mit einem Händler. Auch hört man immer wieder, dass so ein Balkonkraftwerk 
+ohnehin nicht bzw. nicht nennenswert Einspeist.  Dadurch hat der 
+Balkonkraftwerkbetreiber keine wahrheitsgemäße Information als 
+Entscheidungsgrundlage ob ein Handelsvertrag führ ihn zielführend ist oder 
+nicht.
+Nun denn ich habe mir die Information über die Kundenschnittstelle geholt. 
+Auch hier waren Hemmnisse derart, dass die Information wie das geht versteckt 
+und teilweise verheimlicht und teilweise in nicht leicht kostenfrei erhältlichen 
+Normen verwiesen wird. Dank google und den Erfahrungen anderer Leidensgenossen 
+konnte ich die Kundenschnittstelle sozusagen hacken und nach etwa eineinhalb 
+Monaten die gesendeten Daten auswerten.
+Aktuell kann man sagen werde ich über das Jahr gesehen 50% der geernteten Energie 
+nicht selbst sofort verbrauchen so das sie ins Netz eingespeist und nicht in 
+meiner Amortisierungsrechnung eingeht. Könnte ich diese handeln würde sich meine 
+Amortisierungszeit halbieren und meine Stromrechnung statt etwa 10% um 20% reduziert 
+sein. Alleine in den 14 Tagen Urlaub habe ich 44kWh Einspeisung gemacht.
+Kurz gesagt, die verbreiteten Gerüchte, ein Balkonkraftwerk macht keine nennenswerte 
+Einspeisung ist eine möglicherweise gezielte Falschinformation. Heutzutage bestehende 
+Haushalte sind Abendverbraucher, da unter Tags wo die Sonne scheint die Menschen 
+arbeiten oder in der Schule sind. Deswegen kann die geerntete Energie kaum vollständig 
+selbst verbraucht werden. Lediglich mit zeitgeschalteten Waschmaschinen und 
+Geschirrspüler kann ich etwa ein viertel davon nutzen. ein weiteres viertel kann ich 
+über die Dauerverbraucher Kühlschrank und Gefriertruhe nutzen.
+Darum habe ich bereits vor einem halben Jahr bei den Wiener-Netzen um einen 
+Einspeisezählpunkt ersucht. Bisher erfolglos. 
+Nun zurück zum Anfang. Nachdem die Wiener-Netze zu 100% im Eigentum der Stadt Wien 
+und damit eigentlich aktuell dem Bürgermeister Ludwig unterstellt ist, könnte er 
+doch wegen seinem Engagement für soziale Chancengleichheit, sozusagen auf seine 
+GmbH einwirken.
+=> Wie kann ich ihm diesen Vorschlag nahe bringen? Ein Brief oder eMail wird nicht
+   persönlich zu ihm vordringen.    
+   => Muss man ihm das über die Presse sagen? 
+
+
+4)  Rückforderung gelieferter Energie:
+
+An sich gilt, dass auch bei irrtümlicher Lieferung das Gut mit der Sorgfalt eines 
+ordentlichen Kaufmannes zu behandeln ist und zurückzugeben ist.
+Hier aber wurde es verbraucht zur Abdeckung von Netzverlusten. Für Netzverluste 
+steht dem Abdecker das Netzverlustentgelt zu. Im Allgemeinen ist der Decker der 
+Netzbetreiber und es wird beim Verbraucher eingehoben. Diese stehen nun mir im 
+entsprechenden Maß zu und sollten vom Einheber an mich weitergegeben werden.
+Da elektrische Energie ein Gattungs-Gut ist kann der Netzbetreiber die genutzte 
+gelieferte Energie jederzeit besorgen und wieder zurückgeben. Eine gelieferte 
+Leistung die vorteilhaft genutzt und verbraucht wurde muss auch bezahlt werden 
+auch wenn die Lieferung nicht vertraglich vereinbart wurde. 
+
+
+5) lange Bearbeitungszeiten
+
+man stelle sich vor:
+- es kommt die Rechnung von Wiener Netze und man legt die auf einen
+  Bearbeitungsstapel. Wir hier die Wiener Netze Verständnis für eine Monate 
+  lange Bearbeitungszeit haben?
+- eine Firma liefert mit Monate lange Verspätung die monatliche Steuerabgabe.
+  Wird da das Finanzamt Verständnis für eine Bearbeitungszeit haben?
+- es kommt eine Ladung vom Gericht und die kommt mal auf den Bearbeitungsstapel.
+  Wir es da Verständnis geben, wenn man nicht kommt weils halt noch nicht an der 
+  Bearbeitungsreihe war?
+- Es kommt ein Strafmandat und das kommt mal auf den Bearbeitungsstapel.
+  Was wird da wohl passieren? Sagt man da ok, dann zahlst es halt in 3 Monaten?
+=> offenbar muss der Normalbürger sich von den Kapitalschweren das gefallen lassen
+   und das BMK sieht hier keinen Handlungsbedarf.
+   => Sind wir auf den Weg hin zu einem neuen diffizilen Leibeigenenstatus?
+
+
+6) bei der nächsten Wahl thematisieren
+ 
+- die Konservativen (schwarz oder türkis): sehe ich als Vertreter des Kapitals 
+  und eher als Gegenspieler. BKW wirkt sich eher Gewinn mindernd bei der großen
+  Energielobby aus.
+  In wie stark die eher kleinen Vertreiber der BKW hier sind ist fragwürdig.
+  => wie könnte man diese mobilisieren?
+  * Heute-Talk Christian Stocker: Wenn ich das nicht falsch verstanden habe 
+    hat er doch sinngemäßen gemeint „SPÖ hat nichts für Leistungsträger übrig“ 
+    dem kann man entnehmen, dass die ÖVP hier schon bemüht ist diese zu unterstützen. 
+    Nun ein BKW-Betreiber ist doch auch ein Leistungsträger, oder? Nicht nur im 
+    ökonomischen Sinne, sondern auch im ökologischen Sinn, denke ich. In diesem 
+    Sinne müsste auch die ÖVP hier zustimmen, außer er meinte hier nur die großen 
+    Kapitalschweren und nicht die Kleinen.
+    => Wie kann man das herausfinden?
+
+- die Grünen (derzeitige geschäftsführende des BMK): Eigentlich müssten die sich
+  voll dahinter stellen. Fördert dies doch nicht nur die Motivation der Basis 
+  eigene Ersparnisse klimafreundlich zu investieren. Je schneller sich das BKW 
+  amortisiert desto mehr werden hier mitmachen. Wenn ich meine Zahlenwerte hernehme 
+  muss ich je kWh die ich für mich ernte auch eine kWh an die Energielobby abgeben
+  damit ich Klimaschützen darf.
+  => ich sehe beim BMK jetzt einmal keine besonderes Engagement und Hilfe.
+     => wie denkt hier die Basis? Ein BKW ist sinnvoll und man macht sich bei der 
+        öffentlichen Ordnung auch nicht unbeliebt wie z.B. die Klimakleber.
+        Unbeliebt macht man sich bei der Energielobby.  
+
+- die Sozialisten (rot): BKW Betreiber sind diejenigen die keine größere Anlage
+   aufstellen können. Man könnte meinen dass diese deren Wähler sind.
+   => siehe Wiener Bürgermeister als Eigentümer von Wiener Netze 
+
+- die Freiheitlichen (blau): Die Umfragen zeigen, dass diese schon große Teile 
+  der sozialen Schicht ansprechen wie die Sozialisten. Ein Engagement für BKW 
+  könnte auch vergrämte Wähler aus der Basis motivieren ihnen eine Chance zu 
+  geben. Insbesondere wenn dieses schon vor der Wahl Erfolge zeigt.
+  * Parlamentantrag (E. Angerer): FPÖ tritt für gesicherte Strom- und
+    Gasversorgung ein
+    => Energie ist ein Thema für die Freiheitlichen
+  * Der Kickl ist nicht so ein Populist wie der Strache. Er hat deutliche, wenn auch 
+    radikale Worte und könnte auch bereit sein eingefahrene Formen zu ändern 
+    (Der Hecht im Karpfenteich). Die Frage ist, wird er nur das Ändern was ich mir
+    Wünsche?
+    => Wie viel kann man in einer Legislaturperiode falsch machen? Unterm Strache 
+       wurde ja der Parlamentantrag bezüglich des Arbeitszeitgesetzes eingebracht und
+       das war keine Legislaturperiode. Aber vielleicht war das von den Türkisen die
+       Bedingung um mit ihnen eine Koalition zu bilden (Macht Korrumpiert und die
+       Aussicht darauf auch). 
+
+
+7) Wettbewerbsrecht/Kartellgesetz:
+
+Die Verweigerung von Einspeisezählpunkt für BKW und damit verbundene Ausschluss vom 
+Energiemarkt stellt ein Missbrauch einer marktbeherrschenden Stellung dar. 
+Die Erhöhung des Strompreises wird mit der freien Markwirtschaft begründet aber 
+die Reaktion des Marktes (Kunden schafft sich BKW an) wird durch Vorenthaltung 
+eines Einspeisezählpunktes und damit einhergehende Ausschluss vom Stromhandel 
+in seiner Wirksamkeit (ohne Verkaufsmöglichkeit des Überschuss-Stromes ist die 
+Amortisierungszeit meines BKW verdoppelt) eingeschränkt. 
+=> kann man vielleicht hierüber etwas erreichen?
+
+
+8) Zivilklage gegen Wiener-Netze
+
+Bei vorhandenen Smartmeter: Einspeisezählpunkt für TOR Erzeuger < 800W (ohne Elektriker) 
+innerhalb von zwei Wochen ansonsten Strafzahlung.
+Ziel wär es meinen Einspeisezählpunkt ohne Elektriker zu erhalten und damit einen 
+Präzedenzfall (repräsentativen Fall als Musterprozess) zu schaffen auf den sich 
+andere BKW Betreiber berufen können.
+Ein BKW Betrieb mit verschenken der Überschusseinspeisung an Wiener Netze ist jederzeit 
+möglich (hier bestehen keinerlei Sicherheitsbedenken). Einen Einspeisezählpunkt der zur 
+eigenen Verwertung von Überschuss-Einspeisung nötig ist, erhält man wenn überhaupt nur 
+über Anmeldung durch einen kostenpflichtigen von den Wiener Netzen ermächtigten Elektriker. 
+Es ist nicht argumentierbar, das die Anmeldung selbst eine mögliche Sicherheitsgefährdung 
+darstellt. Es ist auch nicht argumentierbar, dass eine Konfigurationsergänzung eines 
+Smartmeters eine mögliche Sicherheitsgefährdung darstellt, die im Vorfeld von einem 
+Elektriker geprüft werden muss.
+=> Wie finanzierbar? 
+   => Crowdfounding?
+=> VKI, AK
+   => warum haben die das noch nicht aufgeriffen?
+      Bin ich wirklich ein Einzelschicksal?
+=> Anwaltkanzlei Zanger?
