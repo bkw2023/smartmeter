@@ -1,0 +1,35 @@
+Hallo Leidensgenossen!
+
+Ich bin ein Balkonkraftwerkbetreiber und versuche einen Einspeisezählpunkt bei 
+den Wiener Netzen zu bekommen. Bevor ich weiter darauf eingehe hier einmal zwei 
+Links zu meiner Smartmeterauslesesoftware:
+
+  https://github.com/bkw2023/smartmeter  
+  https://bkw2023.github.io/smartmeter
+
+Hiermit möchte ich allen BKW Betreibern helfen ihre Einspeisung zu sehen.
+Die Kommunikation betreffend des Einspeisezählpunktes ist beginnen bei den 
+Wiener Netzen im März 2023 bis zum zuständigen Ministerium (BMK) gelangt. 
+Dort bin ich zu mindestens nicht gänzlich auf taube Ohren gestoßen, jedoch 
+sieht man mein Fall als Einzelfall in dem man sich nicht Einmischen möchte. 
+Die Kommunikation habe ich zur Information auch unter dem oben genannten Link 
+zum Nachlesen zur Verfügung gestellt.
+
+Ich möchte alle BKW Betreiber die sich ebenfalls einen Einspeisezählpunkt 
+für den Zugang zum Stromhandel wünschen ermutigen dieses dem BMK per eMail zu 
+schreiben um zu zeigen, dass hier kein Einzelfall vorliegt und das BMK ermutigt 
+wird deutlich den Netzbetreibern zu sagen hier den Zugang zum Stromhandel gemäß 
+EIWOG §15 und §17a kostenfrei zu ermöglichen. 
+
+Des Weiteren wäre dem BMK möglich zu verordnen, dass die Einspeisung im 
+Smartmeterportal ersichtlich sein muss auch ohne Abnahmevertrag, falls dieses 
+für die Netznutzer hilfreich wäre. Falls auch für Euch dieses Hilfreich wäre könnt 
+ihr das auch dem BMK schreiben und das BMK ermutigen hier von ihrer Möglichkeit 
+(EIWOG §81a Abs.4)  Gebrauch zu machen.
+
+Nun noch die eMail der Sektionen des BMK:
+servicebuero@bmk.gv.at, vi-4@bmk.gv.at, vi-5@bmk.gv.at
+
+Gerne könnt ihr Euch auch auf die Geschäftszahl: 2023-0.502.054 in meinen 
+Schriftverkehr beziehen.
+
