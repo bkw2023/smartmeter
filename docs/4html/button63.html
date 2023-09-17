@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript">
+function Werteliste (querystring) {
+  if (querystring == '') return;
+  var wertestring = querystring.slice(1);
+  var paare = wertestring.split("&");
+  var paar, name, wert;
+  for (var i = 0; i < paare.length; i++) {
+    paar = paare[i].split("=");
+    name = paar[0];
+    wert = paar[1];
+    name = unescape(name).replace("+", " ");
+    wert = unescape(wert).replace("+", " ");
+    this[name] = wert;
+  }
+}
+var liste = new Werteliste(location.search);
+</script>
+</head>
+<body>
+<div style="background:url(Visitenkarte_kostenlos_download_70.png); width:469px; height:294px; ">
+<BR><BR><BR>
+<p><script type="text/javascript">
+for (var wie in liste) { document.write( "<code>" + liste[wie] + "</code><BR>" ); }
+</script></p>
+</div>
+</body>
+</html>
