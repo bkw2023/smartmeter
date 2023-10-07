@@ -1,4 +1,4 @@
-Arbeitsliste Stand 15.9.2023
+Arbeitsliste Stand 7.10.2023
 
 1) Dokumentation Schriftverkehr
 - Wiener Netze
@@ -13,6 +13,8 @@ Arbeitsliste Stand 15.9.2023
     => ablehnende Stellungnahme am 2023-05-12
   # Klarstellung meiner Meinung und deren Begründung am 2023-05-14
     => Antwort ausständig
+  # Schlichtungsantrag am 2023-10-07
+    => Antwort ausständig    
 - BMK
   # Bitte um Stellungnahme zur Interpretation des EIWOG der eControl 
     am 2023-06-02
@@ -59,9 +61,15 @@ Arbeitsliste Stand 15.9.2023
        ist.
     => es muss dem BMK gezeigt werden das es sich nicht um ein Einzelschicksal
        handelt
-       => Diskussion der Antwort des BMK in Photovoltaikforen und Bekanntgabe 
-          meiner Open-Source und Anregung eine eMail an BMK zu schreiben.
-       => Zeitung? Standart, Presse, Kurier, Krone oder heute, österreich
+|       => Diskussion der Antwort des BMK in Photovoltaikforen und Bekanntgabe 
+|          meiner Open-Source und Anregung eine eMail an BMK zu schreiben.
+       => Zeitung? 
+          Standart, 
+          Presse, 
+          Kurier, 
+          Krone 
+          heute, 
+|          österreich
           => welche ist die Zielführendere? welche würde am ehesten eine 
              elektronische Abstimmung/Petition organisieren?
   # Betreffend Punkt 5
@@ -77,17 +85,19 @@ Arbeitsliste Stand 15.9.2023
        Einspeisung verordnen.
        => es wäre also dem BMK zu zeigen, dass hierfür ein deutliches Interesse
           besteht
-          => In Photovoltaikforen diskutieren und eMail an BMK anregen
+|          => In Photovoltaikforen diskutieren und eMail an BMK anregen
 
 - Aus der Antwort folgt aber auch das von Seiten des EIWOG nach Ansicht des BMK
   meinem Ersuchen stattzugeben wäre. Man nennt mir dankenswerter weise auch
   die Paragraphen (15, 17a)  auf die ich mich berufen soll. Nun ja 17a habe ich bereits
   gegenüber den Wiener Netzen angeführt hat aber nicht beeindruckt.
-  => Schlichtung bei eControl beantragen zuzüglich Rückforderungen bzw.
-     Abgeltung der erfolgten Einspeisung aus dem Netzverlustentgelt (die
-     Abgeltung gebührt demjenigen der tatsächlich den Netzverlust ausgeglichen
-     hat).
-
+|  => Schlichtung bei eControl beantragen zuzüglich Rückforderungen bzw.
+|     Abgeltung der erfolgten Einspeisung aus dem Netzverlustentgelt (die
+|     Abgeltung gebührt demjenigen der tatsächlich den Netzverlust ausgeglichen
+|     hat).
+|     * Antrag formuliert
+|     * zusammenstellen der Dokumente
+|     * Antrag absenden
 
 3) Wiener Bürgermeister als Eigentümer von Wiener Netze
 
@@ -179,6 +189,10 @@ man stelle sich vor:
    und das BMK sieht hier keinen Handlungsbedarf.
    => Sind wir auf den Weg hin zu einem neuen diffizilen Leibeigenenstatus?
 
+Reaktionszeit gemäß AB-VN_Strom_Wiener-Netze_gen260115 Kap VI 2:
+14 Tage und falls was fehlt unmittelbar
+=> diese sind doch Teil des Vertrages, oder?
+
 
 6) bei der nächsten Wahl thematisieren
  
@@ -242,6 +256,8 @@ Amortisierungszeit meines BKW verdoppelt) eingeschränkt.
 
 
 8) Zivilklage gegen Wiener-Netze
+* Voraussetzung einer Klage ist die Behandlung durch REK
+* Voraussetzung der Behandlung durch REK ist ein Schlichtungsversuch durch eControl
 
 Bei vorhandenen Smartmeter: Einspeisezählpunkt für TOR Erzeuger < 800W (ohne Elektriker) 
 innerhalb von zwei Wochen ansonsten Strafzahlung.
@@ -262,3 +278,36 @@ Elektriker geprüft werden muss.
    => warum haben die das noch nicht aufgeriffen?
       Bin ich wirklich ein Einzelschicksal?
 => Anwaltkanzlei Zanger?
+
+
+9) Finanzamt
+
+Das Zwangsverschenken der Einspeisung ohne Enteignungsbescheid kann doch 
+finanztechnisch als Spende angesehen werden. Im vergleich meiner jährlichen 
+Spende für das RK 15Euro und und FF 10Euro wäre das etwa 3-4 mal so viel.
+=> Anfrage machen
+   * formulieren
+   * absenden
+
+
+10) Zeitungen
+* Lesermeinung/Kommentar Österreich 
+  Add Aussage Nehammer (Artikel in Österreich 29.9.2023)
+
+  An sich muss ich dem Kanzler beipflichten „Leistung muß sich lohnen“. 
+  Fragt sich nur ob er darunter selbiges versteht wie ich. Dazu würde ich 
+  ihn gerne auf die Probe stellen. Ich bin Balkonkraftwerksbetreiber unter 
+  den Wiener Netzen (Wien=SPÖ). Ich habe dort in 7 Monaten etwa 375kWh 
+  eingespeist (=Leistung). Leider verwehrt mir Wiener Netze einen 
+  Einspeisezählpunkt zum Stromhandeln (=kein Lohn für Leistung). Bei den 
+  NÖ-Netzen (NÖ=ÖVP) geht das (=Lohn für Leistung). Wenn er ernst meint was 
+  er sagt soll er 
+  1) das ihm unterstellte BMK veranlassen von ihrer Verordnungsmöglichkeit 
+  (EIWOG §81a Abs.4) gebrauch zu machen und zu verordnen die eingespeiste 
+  Energie auch ohne Vertragsverbindung in Smartmeter-Webportal anzuzeigen. 
+  2) das BMK veranlassen die Diskriminierung der BKW-Betreiber durch die 
+  Wiener Netze (im Vergleich zu den NÖ-Netzen) abzustellen.
+  Hier ein Link mit Hintergrundinformation. Siehe dort Ordner „Einspeisezaehlpunkt“.
+  https://github.com/bkw2023/smartmeter
+  => Stand 3.10.2023: wurde von der Redaktion nicht freigeschaltet
+
