@@ -14,7 +14,9 @@ Arbeitsliste Stand 7.10.2023
   # Klarstellung meiner Meinung und deren Begründung am 2023-05-14
     => Antwort ausständig
   # Schlichtungsantrag am 2023-10-07
-    => Antwort ausständig    
+    => Antragsabweisung am 2023-11-27
+  # Bitte um Erläuterung am 2023-12-1    
+    => Antwort ausständig
 - BMK
   # Bitte um Stellungnahme zur Interpretation des EIWOG der eControl 
     am 2023-06-02
@@ -47,8 +49,8 @@ Arbeitsliste Stand 7.10.2023
                                   Verminderung von Umsatzverlusten.
        . betreffend Informationsverheimlichung: Was der Netznutzer nicht weiß 
                                                 macht ihn nicht heiß.
-         => mein Smartmeterauslesesoftware und Hardware als Open-Source 
-            zur Verfügung stellen.  
+|         => mein Smartmeterauslesesoftware und Hardware als Open-Source 
+|            zur Verfügung stellen.  
   # Betreffend den Punkten 1-4 wird ein Einzelschicksal angenommen bzw. auf lange
     Bearbeitungsdauern verwiesen auf die man nicht Einwirken möchte. Man verweist 
     mich zurück an die Schlichtungsstelle der eControl.
@@ -98,6 +100,92 @@ Arbeitsliste Stand 7.10.2023
 |     * Antrag formuliert
 |     * zusammenstellen der Dokumente
 |     * Antrag absenden
+
+- Schlichtungsantrag abgelehnt:
+  
+... danke, dass Sie sich mit Ihrem Anliegen an die Schlichtungsstelle der E-Control gewandt haben.
+  
+Sie haben ein Schlichtungsverfahren beantragt (vgl. Punkt 10. der Verfahrensrichtlinien).
+  
+Nach Durchsicht Ihres Sachverhaltes haben wir festgestellt, dass ein Ablehnungsgrund gemäß unserer 
+Verfahrensrichtlinien vorliegt. Wir können Ihnen daher im konkreten Fall keine Vermittlung anbieten.
+  
+Kleinsterzeugungsanlagen sind gemäß § 7 Abs. 1 Z 32a ElWOG 2010, Stromerzeugungsanlagen, deren 
+Engpassleistung in Summe weniger als 0,8 kW pro Anlage eines Netzbenutzers beträgt. Gemäß den 
+Ausführungsgesetzen wird für Kleinsterzeugungsanlagen kein eigener Zählpunkt vergeben. Für den 
+Abschluss eines Einspeisevertrages, die Freischaltung des Einspeiseregisters im intelligenten 
+Messgerät, und damit die Erfassung einer etwaigen Einspeisung in das Netz, ist jedoch ein eigener 
+Einspeisezählpunkt erforderlich.
+--> welche Ausführungsgesetze?   
+
+Sie Begehren die Vergabe eines Einspeisezählpunktes für Ihre Kleinsterzeugungsanlage. Da das 
+Begehren durch die gesetzlichen Grundlagen nicht gedeckt ist, und der Netzbetreiber aufgrund 
+seiner Verpflichtung zur Gleichbehandlung diesbezüglich zu keiner Kulanzlösung befragt werden kann, 
+bitten wir um Verständnis, dass wir Ihre Beschwerde nicht weiterbearbeiten und der Beschwerdegegner 
+durch uns nicht über Ihre Beschwerde informiert wird (vgl. Punkt 9. (1) f) der Verfahrensrichtlinien 
+Konsumenten [https://www.e-control.at/documents/1785851/1811582/Verfahrensrichtlinien+der+Schlichtungsstelle+der+E-Control_Haushaltskunden_ab+1.5.2020.pdf/151c1ab6-a331-32c8-3fd9-9ff5c8bed50f?t=1588257460065]).
+--> ich habe nicht für eine Kleinsterzeugungsanlage sondern ein Balkonkraftwerk dieses begehrt
+--> 9. BESCHWERDE-ABLEHNUNG:
+    (1) Die Schlichtungsstelle kann die weitere Behandlung Ihrer Beschwerde ablehnen, wenn:
+    f) die Behandlung der Streitigkeit den effektiven Betrieb der Schlichtungsstelle ernsthaft 
+       beeinträchtigen würde  
+
+Ihre weiteren rechtlichen Möglichkeiten finden Sie unter Punkt 14 unserer Verfahrensrichtlinien.
+  
+Weitere Informationen zur Schlichtungsstelle finden Sie auf der Homepage der E-Control unter: 
+https://www.e-control.at/schlichtungsstelle[https://www.e-control.at/schlichtungsstelle]
+  
+Sie beziehen sich in Ihren Ausführungen zum Begehren auf § 17a Abs 6 ElWOG 2010. Diese gesetzliche 
+Bestimmung steht nicht im Zusammenhang mit Kleinsterzeugungsanlagen. Jedoch mit PV-Anlagen mit 
+Überschusseinspeisung bis 20 kW. 
+--> der hier abgesprochene Zusammenhang ist nicht nachvollziehbar:
+ElWOG 2010 §7 Abs. 1:
+   Z 32a : „Kleinsterzeugungsanlagen“ eine oder mehrere Erzeugungsanlagen, deren Engpassleistung 
+           in Summe weniger als 0,8 kW pro Anlage eines Netzbenutzers beträgt;
+=> Es ist hier weder etwas über Überschusseinspeisung noch über PV-Anlagen gesagt. 
+=> Kann also auch z.B. ein Windrad sein.
+   Z 20: „Erzeugungsanlage“ ein Kraftwerk oder Kraftwerkspark;
+   Z 38: „Kraftwerk“ eine Anlage, die dazu bestimmt ist, durch Energieumwandlung elektrische Energie 
+         zu erzeugen. Sie kann aus mehreren Erzeugungseinheiten bestehen und umfasst auch alle 
+         zugehörigen Hilfsbetriebe und Nebeneinrichtungen;   
+=> Eine PV-Anlage ist dazu bestimmt Sonnenstrahlung in elektrische Energie umzuwandeln und ist damit 
+   ein Kraftwerk und damit eine Erzeugungsanlage und damit ist die Schnittmenge "Kleinsterzeugungsanlagen"
+   und "PV-Anlagen" nicht leer. Der Begriff Überschusseinspeisung spielt hier keine Rolle.
+=> Diese gesetzliche Bestimmung bezieht sich somit zummindest auf eine Teilmenge der Kleinsterzeugungsanlagen
+--> Meine Erzeugungsanlage ist eine PV-Anlage mit 750Wp und hat bis jetzt etwa 400kWh über einen bestehenden 
+    Anschluss als Entnehmer an das Netz eingespeist. 
+=> Die Erzeugungsanlage gehört also der Menge der "Kleinsterzeugungsanlagen" an, da 0.75<0.8 ist.
+=> Und gehört auch der Menge der "PV-Anlagen mit Überschusseinspeisung bis 20 kW" an, da 0.75<20 ist 
+   und da es eine PV Anlage ist und da es schon ~400kWh ins Netz eingespeist hat und da es dieses über 
+   einen bestehenden Anschluss als Entnehmer getan hat.
+=> Diese gesetzliche Bestimmung bezieht sich also auch auf meine Anlage. 
+   Oder es haben mir meine Mathelehrer in Bezug auf Ungleichungen, Aussagelogik und Mengenlehre 
+   was Falsches beigebracht?
+
+Wenn Sie also keine Kleinsterzeugungsanlage betreiben möchten, sondern mit der PV-Anlage in das öffentliche Netz 
+einspeisen möchten, ist es erforderlich, dass Sie einen Antrag auf Netzzutritt/Netzzugang einbringen. Für Anlagen 
+auf Basis erneuerbarer Energieträger mit einer Engpassleistung bis 20 kW gibt es das Verfahren des vereinfachten 
+Netzzutritts/Netzzugangs.
+--> meinen sie ich soll mir eine leistungsstärkeres Kraftwerk besorgen?  
+--> genau das habe ich doch aber bereits am 13.03.2023 mit dem Ersuchen eines Einspeisezählpunktes 
+    für meine bestehende und in Betrieb befindlichen Erzeugungsanlage gemacht mit der Erwartung 
+    a) der Bekanntgabe der Zählpunktbezeichnung oder 
+    b) der umgehenden Anforderung ggf fehlender Angaben 
+--> Weder das eine noch das andere ist erfolgt
+--> das EIWOG schreibt für den Antrag keine besondere Form vor 
+--> ich habe meinen Antrag gemäß den damals vorhandenen Möglichkeiten (email bzw. Brief) gemacht
+ 
+Untenstehend stellen wir die vier Phasen, die ein Netzbenutzer für die Errichtung von PV-Anlagen mit einer 
+Engpassleistung kleiner gleich 20 kW mit dem Netzbetreiber durchlaufen muss, graphisch dar. Grundsätzlich können 
+Sie den Netzzutritt auch für die bestehen Stromerzeugungsanlage (Technik) anfordern, beachten Sie aber, dass, 
+wenn es sich nicht mehr um den Betrieb einer Kleinsterzeugungsanlage, sondern um den Betrieb einer 
+Überschuss- oder Volleinspeisungsanlage handelt, die Einschränkungen der technischen Anforderungen für 
+Kleinsterzeugungsanlagen wegfallen.
+--> irre ich mich - da sagen sie doch ich darf mit meinem Balkonkraftwerk am Energiehandel teilnehmen?
+--> was für "Einschränkungen der technischen Anforderungen" meinen die da?
+  
+|=> Erläuterung bei eControl erbitten
+=> Stellungnahme BMK erbitten
 
 3) Wiener Bürgermeister als Eigentümer von Wiener Netze
 
@@ -310,4 +398,29 @@ Spende für das RK 15Euro und und FF 10Euro wäre das etwa 3-4 mal so viel.
   Hier ein Link mit Hintergrundinformation. Siehe dort Ordner „Einspeisezaehlpunkt“.
   https://github.com/bkw2023/smartmeter
   => Stand 3.10.2023: wurde von der Redaktion nicht freigeschaltet
+* Leserbrief mit Kommentar zu "Sonderausgabe Konsument 2023 – Balkonkraftwerk Seite 31"
+  leserbriefe@konsument.at
+ 
+  Ich betreibe ein Balkonkraftwerk (750W/980Wp) seit Mitte Februar 2023. Die Auswertung 
+  der Verbrauchsanzeige im Smartmeter-Webportal zeigte mir recht schnell, dass die 
+  Einspeisung wohl nicht so wie sie schreiben „nur minimal“ ist. Nachdem die Wiener Netze 
+  die Einspeisung weder am Smartmeter-Display noch Portal anzeigt, habe ich die 
+  Kundenschnittstelle genützt (siehe dazu meine Page https://github.com/bkw2023/smartmeter).
+  Aktuell am 6.10.2023 habe ich  728.5kWh geerntet und davon 386.5kWh eingespeist. Wobei 
+  ich sagen muss, ich habe keine optimale Aufstellung da die Kollektoren nachmittags 
+  beschattet werden. In meinem 14 Tagen Griechenland-Urlaub im August (ungefähr 9-10 
+  Vollsonnentage) wurden 44kWh eingespeist. Das Verhältnis Einspeisung zu Ernte hängt vom 
+  Verbrauchsprofil ab. Ich als Tagarbeitender der um 7h aus dem Haus geht und nach 17h 
+  wieder heimkommt, sehe von der Sonne unter der Woche nicht viel. Meine letzte 
+  Stromrechnung in September ergab ca 2150kWh. Das wären dann etwa 20% also relativ viel.
+  Es ist richtig, dass die Wiener Netze derzeit dafür sorgt/en, dass ich/man keinen 
+  Vertrag mit der OeMag abschließen kann und damit keine Einspeisvergütung ermöglicht wird. 
+  Bei anderen österreichischen Netzbetreibern ist dieses, wie ich Web-Foren entnehmen 
+  konnte schon möglich. Ich habe mich mit meinem Wunsch nach einen Einspeisezählpunkt 
+  bereits Mitte März 2023 an die Wiener Netze gewannt. Habe auch Kontakt zu eControl und 
+  dem zuständigen Bundesministerium gesucht. Jetzt habe ich einen Schlichtungsantrag bei 
+  eControl stellen um das Formalerfordernis für die REK und infolge Klage zu erfüllen.
 
+
+11) Anzeige bei Bezirksverwaltungsbehörde
+=> evaluieren nach NÖ_EIWG
