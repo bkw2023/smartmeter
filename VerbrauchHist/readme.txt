@@ -14,7 +14,8 @@ VerbrauchHist.exe            ... ermittelt aus den Smartmeterdaten das Histogram
 VIERTELSTUNDENWERTE.csv      ... Input: Smartmeterdaten, 
                                  download von Wiener-Netze Smartmeterportal
 
-Astronomische_Sonne_Wien.txt ... Input: Kopie von der Hompage der ZMAG
+Astronomische_Sonne_Wien.txt ... Input: Kopie von der Hompage der ZAMG
+                                 https://www.zamg.ac.at/cms/de/klima/klimauebersichten/ephemeriden
                                  Wenn diese Daten vorliegen wird auch ein 
                                  Nacht-Histogram erstellt. Ansonsten findet sich 
                                  alles im Tag-Histogram. Die Tag-Nacht-Grenze wird 
