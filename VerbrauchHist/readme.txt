@@ -30,6 +30,8 @@ VerbrauchHist.xls            ... In einen Tabellenkalkulationsprogram (hier King
                                  Prozentsatz des Verbrauches (am Tag) berechnet, welcher 
                                  unterhalb der Leistung auf der Ordinatenachse liegt.
 
+nutzung.*                    ... BKW Daten: Einspeisung zu Ernte
+
 
 
 
