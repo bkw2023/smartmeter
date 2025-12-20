@@ -1,0 +1,104 @@
+SDP client server Protokol Hardware und Software
+
+Hardware ISO 15118-3   CONNECT, DISCONNECT, DATA
+                  -8
+Die Norm DIN EN 61851-24 Konduktive Ladesysteme für Elektrofahrzeuge
+- Teil 24: Digitale Kommunikation zwischen einer Gleichstromladestation 
+  für Elektrofahrzeuge und dem Elektrofahrzeug zur Steuerung des 
+  Gleichstromladevorgangs
+
+---
+
+CSS AC an 1 oder 3 phasig max 500V AC 1x80A oder 3x63A
+CCS DC-High an Gleichstromkontakten >=500V DC und 1x200A
+CCS 2.0 DC-Laden 200-1000V, max 500A, max 500KW
+        Kommunikation: DIN SPEC 70121:2014 (max. 80 kW)
+                       ISO/IEC 15118-2:2014 ED1
+                       ISO/IEC 15118-3:2015 ED1 
+
+CCS-Gleichstromladen mit dem Combo 2 nur der Erdungs- und 
+die beiden Signalkontakte genutzt. Der Laststrom fließt über 
+die beiden zusätzlichen Gleichstromkontakte. Es kommt der 
+IEC-62196-Lademodus 4 zur Anwendung. Gemäß IEC 61851-1 sind 
+das Ladekabel und die Fahrzeugkupplung dabei fest mit der 
+Ladesäule verbunden und werden am Fahrzeug gesteckt. 
+
+---
+
+Steckerbelegung bei der Combo-2-Gleichstromladung:
+    PE … (Protective Earth) Schutzleiter, ugs. Erde bzw. Erdpotential
+    CP … (Control Pilot) zum Dialog zwischen Ladestation und Fahrzeug 
+         mittels Analogsignal oder Powerline Communication (PLC) basiert 
+    PP … (Proximity Pilot) zur Begrenzung des Ladestromes mittels Widerstandscodierung, 
+                           damit das verwendete Ladekabel nicht überlastet wird
+    DC+ … (Direct Current +) Gleichstromladung, Pluspol
+    DC− … (Direct Current −) Gleichstromladung, Minuspol
+
+Die digitale Kommunikation zwischen Gleichstrom-Ladestation und Fahrzeug wird in 
+IEC 61851-24 beschrieben. Für das Combined Charging System der EU ist entsprechend 
+die „Configuration FF“ im Annex C von IEC 61851-24 zu verwenden.
+
+---
+
+Widerstandswerte und ihre Bedeutung (nach IEC 62196):
+Die Widerstandswerte im PP-Kontakt des CCS-Steckers korrelieren 
+mit verschiedenen Kabelquerschnitten und den damit verbundenen 
+maximalen Ladeströmen. Hier ist eine Tabelle mit gängigen Werten: 
+Widerstand (Ω)   Leitungsquerschnitt (mm²)   Max. Ladestrom (A)
+1500 (1,5 kΩ)              1,5               13
+680                        2,5               20
+220                        4-6               32
+100                       10-16              63
+
+---
+
+CP (Control Pilot) zum Dialog zwischen Ladestation und Fahrzeug 
+mittels Analogsignal (IEC 62196 Typ 2):
+Die von der Internationalen Elektrotechnischen Kommission erstellte Norm IEC 61851-1 
+wird in allen konduktiven Ladesystemen für Elektrofahrzeuge verwendet.
+Ladegeräte und Fahrzeuge stehen in einem ständigen Informationsaustausch mittels 
+Pulswellenmodulation (PWM) mit 1kHz wobei die Signalspannung den Ladeprozesszustand
+definieren: 
+  Die Signalspannungen wechseln zwischen zwei Stufen, um den Ladezustand anzuzeigen:
+    +12 V Zustand A Kein EV an der EVSE angeschlossen
+    +9 V Zustand B EV an die EVSE angeschlossen, aber nicht bereit zum Laden
+    +6 V Zustand C Angeschlossen und ladebereit, Belüftung ist nicht erforderlich
+    +3 V Zustand D Angeschlossen, bereit zum Aufladen und Belüftung ist erforderlich
+    +0 V Zustand E Elektrischer Kurzschluss gegen Erde am Controller der EVSE, keine Stromversorgung
+    -12 V Zustand F EVSE ist nicht verfügbar 
+und die Pulsweite auf dem 1 kHz CP-Signal zeigt die maximale Leistung an, die ladeseitig zur
+Verfügung gestellt werden kann:
+  Die maximale Stromlast ist auf der Basis einer Formel definiert,
+  welche die 1000 μs Zykluslänge der Trägerfrequenz (das 1 kHz Signal) nimmt und je 10 μs Pulsweite 
+  mit 0,6 A multipliziert, um die Dauerlast des Anschlusses zu definieren (mit minimal 100 μs = 6 A 
+  und maximal 800 μs = 48 A). 
+
+In der Norm IEC 61851-1 definiert 
+der Bereich von 8 % bis kleiner 10 % Duty cycle die maximal verfügbare Leistung als 6 A, 
+der Bereich von 10 % bis 85 % Duty cycle die maximal verfügbare Leistung als 
+  (% Duty cycle) multipliziert mit 0,6 A (6-51A), 
+der Bereich von größer als 85 % bis 96 % Duty cycle die maximal verfügbare Leistung als 
+  (% Duty cycle – 64) multipliziert mit 2,5 A (52.5-80A), 
+der Bereich größer als 96 % bis 97 % Duty cycle als 80 A.
+
+Zwischen 0 % bis 3 % Duty cycle, 
+         7 % bis 8 % Duty cycle und 
+        97 % bis 100 % Duty Cycle ist Laden nicht erlaubt. 
+Zwischen 3 % und 7 % Duty Cycle wird signalisiert, dass eine digitale Kommunikation 
+(in Europa PLC) das Laden regelt.
+
+
+Power Line Communication (PLC) - Dies ist der in CCS1 und CCS2 verwendete 
+Kommunikationsrahmen auf hoher Ebene. Es verwendet einen Standard-TCP/IP-Stack 
+(Transmission Control Protocol / Internet Protocol) für die Kommunikation. 
+Für die Kommunikation zwischen Ladestation und Elektrofahrzeug werden IP-basierte 
+Protokolle verwendet. Hierfür wird die PLC-Technologie mit einer dedizierten 
+physikalischen Verbindung (CP, PE) verwendet. Bei diesem System wird der Datenstrom 
+auf das PWM-Signal aufmoduliert. Es ist unter den Bezeichnungen Homeplug AV und 
+IP-overpowerline im Bereich der Konsumgüter bekannter. Im Ladesteuermodul des Fahrzeugs 
+wird ein Transmission Control Protocol / Internet Protocol (TCP/IP) Stack zur Kommunikation 
+verwendet.
+
+
+
+
